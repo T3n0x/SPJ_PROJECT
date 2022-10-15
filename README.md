@@ -1,7 +1,7 @@
 # SPJ_PROJECT
 Proyecto de clases
 
-el projecto esta realizado en react y [este](https://celebrated-treacle-86d9d7.netlify.app/) es el link donde se pondra el sitio
+el projecto esta realizado en react y [este](https://rentacar-main.netlify.app/) es el link donde se pondra el sitio
 
 # Getting Started with Create React App
 
