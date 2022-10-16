@@ -1,5 +1,5 @@
 import './Navar.css'
-import React, { Component } from 'react';
+import { Component } from 'react';
 import Modal from './Modal'
 
 class Navar extends Component {

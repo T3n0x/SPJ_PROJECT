@@ -1,0 +1,47 @@
+.card{
+    width: 100%;
+}
+.card:hover{
+    transform: scale(1.01);
+}
+
+.back{
+    position: relative;
+    
+}.back img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.back .__name{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: 1.3em;
+    margin-top: -1rem;
+}.back .__name ._marca{
+    font-weight: 600;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: .6rem .4rem;
+}.info p{
+    display: block;
+    font-size: 1em;
+}.info p i{
+    display: block;
+    font-size: .9em;
+    margin-top: -.3rem;
+}
+
+.view_more{
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 600;
+    border-radius: .2rem;
+    padding: .4rem .6rem;
+
+}

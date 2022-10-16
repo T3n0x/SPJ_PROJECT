@@ -1,0 +1,142 @@
+[
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/web/peugeot/208_lrg.jpg",
+        "marca": "Peugeot",
+        "modelo": "208",
+        "asientos": "5",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"10000"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/new_images/suzuki/swift_4_doors_lrg.jpg",
+        "marca": "Suzuki",
+        "modelo": "Swift",
+        "asientos": "4",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"10500"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/web/chevrolet/onix_lrg.jpg",
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "asientos": "5",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"12500"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/web/peugeot/208_lrg.jpg",
+        "marca": "Peugeot",
+        "modelo": "208",
+        "asientos": "5",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"10000"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/new_images/suzuki/swift_4_doors_lrg.jpg",
+        "marca": "Suzuki",
+        "modelo": "Swift",
+        "asientos": "4",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"10500"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/web/chevrolet/onix_lrg.jpg",
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "asientos": "5",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"12500"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/web/peugeot/208_lrg.jpg",
+        "marca": "Peugeot",
+        "modelo": "208",
+        "asientos": "5",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"10000"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/new_images/suzuki/swift_4_doors_lrg.jpg",
+        "marca": "Suzuki",
+        "modelo": "Swift",
+        "asientos": "4",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"10500"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/web/peugeot/208_lrg.jpg",
+        "marca": "Peugeot",
+        "modelo": "208",
+        "asientos": "5",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"10000"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/new_images/suzuki/swift_4_doors_lrg.jpg",
+        "marca": "Suzuki",
+        "modelo": "Swift",
+        "asientos": "4",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"10500"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/web/chevrolet/onix_lrg.jpg",
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "asientos": "5",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"12500"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/web/peugeot/208_lrg.jpg",
+        "marca": "Peugeot",
+        "modelo": "208",
+        "asientos": "5",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"10000"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/new_images/suzuki/swift_4_doors_lrg.jpg",
+        "marca": "Suzuki",
+        "modelo": "Swift",
+        "asientos": "4",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"10500"
+    },
+    {
+        "imagen":"https://cdn2.rcstatic.com/images/car_images/web/chevrolet/onix_lrg.jpg",
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "asientos": "5",
+        "puertas":"4",
+        "combustible": "Gasolina",
+        "transmicion":"Manual",
+        "valor":"12500"
+    }
+]
