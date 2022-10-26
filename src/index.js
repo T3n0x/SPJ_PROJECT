@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Navar from './Components/Navar';
 import GridAutos from './Components/GridAutos';
 
+import db from './firebase'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
