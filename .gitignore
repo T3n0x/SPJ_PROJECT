@@ -10,6 +10,8 @@
 
 .eslintcache
 
+.env
+
 # production
 /build
 
