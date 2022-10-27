@@ -1,41 +1,44 @@
 import './GridAutos.css'
-import { Component } from "react";
+import React, { useState, useEffect } from "react";
 
 import Cards from './Cards';
-import Automoviles from './../TestJSON/Automoviles.json'
-
+import { db } from './../firebase'
 import { collection, getDocs } from "firebase/firestore";
-import db from './../firebase'
 
-async function getCars() {
-    let retn = await getDocs(collection(db, "automoviles"));
-    let card = []
-    retn.forEach((e) => {
-        card.push(<Cards
-            imagen={e.imagen}
-            marca= {e.marca}
-            modelo= {e.modelo}
-            asientos= {e.asientos}
-            puertas= {e.puertas}
-            combustible={e.combustible}
-            transmicion={e.transmicion}
-            valor={e.valor}
-            ></Cards>)
-    })
 
-    return card
-}
+export const GridAutos = () => {
+    const [docs, setDocs] = useState([]);
 
-class GridAutos extends Component{
-    render() {
-        return(
-            <main>
-                <div className='grid_list'>
-                    {getCars}
-                </div>
-            </main>
-        );
+    const getCars = async () => {
+        let query = await getDocs(collection(db, 'automoviles'));
+        const lista = []
+        query.forEach(e => {
+            lista.push({...e.data(), id:e.id});
+        });
+        setDocs(lista);
     }
-}
 
-export default GridAutos;
+    useEffect(() => {
+        getCars();
+    }, []);
+
+    
+    return(
+        <main>
+            <div className='grid_list'>
+                {docs.map((e)=>(
+                    <Cards
+                        imagen={e.imagen}
+                        marca= {e.marca}
+                        modelo= {e.modelo}
+                        asientos= {e.asientos}
+                        puertas= {e.puertas}
+                        combustible={e.combustible}
+                        transmicion={e.transmicion}
+                        valor={e.valor}
+                        ></Cards>
+                ))}
+            </div>
+        </main>
+    );    
+}
