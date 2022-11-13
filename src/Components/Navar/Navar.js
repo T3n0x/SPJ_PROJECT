@@ -1,6 +1,6 @@
 import './Navar.css'
 import { Component } from 'react';
-import Modal from './Modal'
+import Modal from './../Modal/Modal'
 
 class Navar extends Component {
     constructor(props) {
@@ -29,7 +29,7 @@ class Navar extends Component {
         return(
             <nav>
                 <div className='logo'>
-                    <span className='nav__title'>RentaCar</span>
+                    <a href='/'><span className='nav__title'>RentaCar</span></a>
                 </div>
                 <div className='btn_items'>
                     <li>

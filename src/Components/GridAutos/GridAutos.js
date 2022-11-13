@@ -1,8 +1,10 @@
 import './GridAutos.css'
 import React, { useState, useEffect } from "react";
 
-import Cards from './Cards';
-import { db } from './../firebase'
+import Cards from './../Cards/Cards';
+import Aside from './../Aside/Aside'
+
+import { db } from './../../firebase'
 import { collection, getDocs } from "firebase/firestore";
 
 
@@ -15,6 +17,7 @@ export const GridAutos = () => {
         query.forEach(e => {
             lista.push({...e.data(), id:e.id});
         });
+        console.log(lista)
         setDocs(lista);
     }
 
@@ -24,10 +27,12 @@ export const GridAutos = () => {
 
     
     return(
-        <main>
+        <div className='Home'>
+            <Aside/>
             <div className='grid_list'>
                 {docs.map((e)=>(
                     <Cards
+                        id={e.id}
                         imagen={e.imagen}
                         marca= {e.marca}
                         modelo= {e.modelo}
@@ -39,6 +44,6 @@ export const GridAutos = () => {
                         ></Cards>
                 ))}
             </div>
-        </main>
+        </div>
     );    
 }

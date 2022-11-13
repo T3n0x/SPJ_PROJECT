@@ -1,0 +1,49 @@
+.view_car{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 1.5rem;
+}
+
+.view_car .summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem .4rem;
+    border-radius: .3rem;
+    background-color: #f0f0f0;
+}
+
+.view_car .summary .images .main_img{
+    border-radius: .3rem;
+    width: 100%;
+    height: auto;
+}
+
+.view_car .summary .info .top{
+    margin-bottom: .5rem;
+}
+
+.view_car .summary .info .top span{
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+}
+.view_car .summary .info .top .__marca{
+    display: block;
+    font-size: 1.9em;
+    font-weight: 600;
+    margin-bottom: -.5rem;
+}
+
+.view_car .summary .utils{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1em;
+    padding: 0 1rem;
+}
+
+.view_car .summary .utils p{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: .5rem;
+}
