@@ -20,7 +20,7 @@ function Auto(props) {
 
     useEffect(() => {
         getCars();
-    }, []);
+    });
 
     return(
         <div className='view_car'>

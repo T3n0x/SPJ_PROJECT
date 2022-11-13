@@ -9,9 +9,6 @@ const Aside = () => {
                     <input type={Text} name='q' placeholder='Buscar Automovil'/>
                     <button>?</button>
                 </div>
-
-                {/* Este boton abrira el '.filter_list' */}
-                <button className='filter_open'>Filtros</button>
             </div>
 
             <div className='filter_list'>
