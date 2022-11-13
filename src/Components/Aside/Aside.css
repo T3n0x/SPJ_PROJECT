@@ -33,10 +33,7 @@ aside .filter_list .wd_filter .options{
     gap: .5rem .3rem;
 }
 aside .filter_list .wd_filter .options .opt{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    opacity: .8;
+    display: inline-flex;
 }
 aside .filter_list .wd_filter .options .opt input{
     display: none;
